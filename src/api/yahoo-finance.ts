@@ -12,7 +12,7 @@ export interface StockData {
 const options = {
     method: "GET",
     headers: {
-        "x-rapidapi-key": "83d741748fmsh3ce7af0c682901dp1f0c3djsn9351c8a7ec88",
+        "x-rapidapi-key": import.meta.env.VITE_RAPIDAPI_KEY,
         "x-rapidapi-host": "yahoo-finance15.p.rapidapi.com"
     }
 };
